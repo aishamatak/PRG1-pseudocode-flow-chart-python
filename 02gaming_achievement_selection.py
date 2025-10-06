@@ -24,5 +24,15 @@ if achievement == "Master Player":
     print("You've unlocked the secret bonus level!")
 
 # adding a new achievement level 
-if player_score >= 15000 and time_played_hours >= 100
+if player_score >= 15000 and time_played_hours >= 100:
    achievemnet = "Legend"
+elif player_score >= 10000 and time_played_hours >= 50:
+    achievement = "Master Player"
+elif enemies_defeated >= 1000:
+    achievement = "Combat Expert"
+elif time_played_hours >= 20:
+    achievement = "Dedicated Gamer"
+elif player_score >= 5000:
+    achievement = "Rising Star"
+else:
+    achievement = "Newcomer"

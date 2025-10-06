@@ -38,3 +38,11 @@ if happy_songs > sad_songs:
     print("Overall mood: Upbeat! 😊")
 else:
     print("Overall mood: Contemplative 🤔")
+
+# adding a new category: romantic
+romantic_songs = 0 
+
+if song_mood == "romantic":
+   romantic_songs += 1 
+
+print(f"{romantic_songs} romantic songs ({(romantic_songs/total_songs)*100:.1f}%)") 

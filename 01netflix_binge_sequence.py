@@ -19,3 +19,6 @@ print(f"That's {total_days:.1f} full days of your life!")
 
 # Episodes per day 
 episodes_per_day = total_episodes / 7
+
+
+
