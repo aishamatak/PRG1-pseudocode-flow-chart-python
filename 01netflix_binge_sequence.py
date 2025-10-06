@@ -22,3 +22,12 @@ episodes_per_day = total_episodes / 7
 
 
 
+# Youtube video problem 
+
+# Input 
+videos_watched = input("Enter the series name:")
+average_length = int(input("Enter the average length of the video watched"))
+
+# Calculations 
+total_time = videos_watched * average_length 
+total_days = total_time / 24 
