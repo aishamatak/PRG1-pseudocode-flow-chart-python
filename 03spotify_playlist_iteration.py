@@ -46,3 +46,18 @@ if song_mood == "romantic":
    romantic_songs += 1 
 
 print(f"{romantic_songs} romantic songs ({(romantic_songs/total_songs)*100:.1f}%)") 
+
+
+
+Pizza Party Planner ### 
+
+#nput: guests, slices per person, slices per pizza ### 
+#utput: pizzas needed, total cost ###
+
+# Input
+number_of_guests = int(input("how many guests"))
+slices_per_person = int(input("how many slices of pizzas?")) 
+slices_per_pizza = int(input("how many slices in each pizza"))
+cost_per_pizza = int(input("how much for a pizza")) 
+
+
