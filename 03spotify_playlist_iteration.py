@@ -49,10 +49,10 @@ print(f"{romantic_songs} romantic songs ({(romantic_songs/total_songs)*100:.1f}%
 
 
 
-#izza Party Planner ### 
+#Pizza Party Planner ### 
 
-#nput: guests, slices per person, slices per pizza ### 
-#utput: pizzas needed, total cost ###
+#Input: guests, slices per person, slices per pizza ### 
+#Output: pizzas needed, total cost ###
 
 # Input
 number_of_guests = int(input("how many guests"))
@@ -60,4 +60,10 @@ slices_per_person = int(input("how many slices of pizzas?"))
 slices_per_pizza = int(input("how many slices in each pizza"))
 cost_per_pizza = int(input("how much for a pizza")) 
 
+# Calcs
+total_pizzas = (slices_per_person * slices_per_pizza) / 8 
+total_cost = total_pizzas * cost_per_pizza 
+
+# Output 
+print (f"you will need:"{total_pizzas}"pizzas in total and the total cost is:{total_cost}")
 
