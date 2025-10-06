@@ -22,3 +22,7 @@ print(f"\nCongratulations! You've earned: {achievement}")
 
 if achievement == "Master Player":
     print("You've unlocked the secret bonus level!")
+
+# adding a new achievement level 
+if player_score >= 15000 and time_played_hours >= 100
+   achievemnet = "Legend"

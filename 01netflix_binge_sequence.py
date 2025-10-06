@@ -16,3 +16,6 @@ total_days = total_hours / 24
 print(f"\nTo binge-watch {series_name} you need:")
 print(f"{total_hours:.1f} hours")
 print(f"That's {total_days:.1f} full days of your life!")
+
+# Episodes per day 
+episodes_per_day = total_episodes / 7
