@@ -49,7 +49,7 @@ print(f"{romantic_songs} romantic songs ({(romantic_songs/total_songs)*100:.1f}%
 
 
 
-Pizza Party Planner ### 
+#izza Party Planner ### 
 
 #nput: guests, slices per person, slices per pizza ### 
 #utput: pizzas needed, total cost ###
